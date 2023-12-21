@@ -1,3 +1,5 @@
+// a simple java program to calculate a user's avarage score to see if they have passed or failed an academic year.
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {

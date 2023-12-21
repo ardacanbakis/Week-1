@@ -17,6 +17,7 @@ public class Main {
         // User input gets a line break ask a mentor the reason of this
         System.out.println("Fizik Notunuz : ");
         fizik = input.nextInt();
+        // IMPORTANT - DOESN'T MAKE SENSE..
 
         System.out.print("Kimya Notunuz : ");
         kimya = input.nextInt();

@@ -1,4 +1,4 @@
-// a simple java program to calculate a user's avarage score to see if they have passed or failed an academic year.
+// a simple java program to calculate a user's average score to see if they have passed or failed an academic year.
 
 import java.util.Scanner;
 public class Main {
@@ -6,7 +6,7 @@ public class Main {
         //creating  variables
         int matematik, fizik, kimya, turkce, tarih, muzik;
 
-        // Implementied Scanner
+        // Implemented Scanner
         Scanner input = new Scanner(System.in);
 
         // Get information from the user

@@ -1,7 +1,7 @@
-// basic java application to calculate body mass index.
+// basic java application to calculate body mass index. @ArdaCanbakis 
 import java.util.Scanner;
 
-public class Main {
+public class bmi {
     public static void main(String[] args) {
 
         // User input

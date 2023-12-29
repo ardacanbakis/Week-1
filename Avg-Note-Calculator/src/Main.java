@@ -14,7 +14,6 @@ public class Main {
         System.out.print("Matematik Notunuz : ");
         matematik = input.nextInt();
 
-
         System.out.print("Fizik Notunuz : ");
         fizik = input.nextInt();
 

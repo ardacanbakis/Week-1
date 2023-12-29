@@ -35,3 +35,4 @@ public class Main {
         System.out.println("Bu ekonomik şartlarda eğer alım gücünüz var ise fiyatlar daha da yükselmeden ihtiyacınız olan ürünü almanızı tavsiye eder, iyi günler dileriz. :)");
     }
 }
+

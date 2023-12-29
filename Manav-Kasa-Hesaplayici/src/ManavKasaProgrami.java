@@ -1,41 +1,43 @@
+// basic java application to calculate total of a grocery shopping. @ArdaCanbakis
+
 import java.util.Scanner;
 
-public class main {
-
+public class ManavKasaProgrami {
     public static void main(String[] args) {
 
+        // Fruit & Prices
         double armutFiyati = 2.14;
         double elmaFiyati = 3.67;
         double domatesFiyati = 1.11;
         double muzFiyati = 0.95;
         double patlicanFiyati = 5.00;
 
-        // User input to calculate
+        // Get quanity from user
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Armut Kaç Kilo? : ");
+        System.out.print("Kaç kg Armut? : ");
         double armutKilo = scanner.nextDouble();
 
-        System.out.print("Elma Kaç Kilo? : ");
+        System.out.print("Kaç kg Elma? : ");
         double elmaKilo = scanner.nextDouble();
 
-        System.out.print("Domates Kaç Kilo? : ");
+        System.out.print("Kaç kg Domates? : ");
         double domatesKilo = scanner.nextDouble();
 
-        System.out.print("Muz Kaç Kilo? : ");
+        System.out.print("Kaç kg Muz? : ");
         double muzKilo = scanner.nextDouble();
 
-        System.out.print("Patlıcan Kaç Kilo? : ");
+        System.out.print("Kaç kg Patlıcan? : ");
         double patlicanKilo = scanner.nextDouble();
 
-        // Calculate total
+        // Calculate
         double toplamTutar = (armutFiyati * armutKilo) +
                 (elmaFiyati * elmaKilo) +
                 (domatesFiyati * domatesKilo) +
                 (muzFiyati * muzKilo) +
                 (patlicanFiyati * patlicanKilo);
 
-        // Sonucu ekrana yazdır
+        // Print total
         System.out.println("Toplam Tutar : " + toplamTutar + " TL");
     }
 }

@@ -7,7 +7,7 @@ public class SayilariKucuktenBuyugeSiralama {
         int x, y, z;
 
         Scanner numbers = new Scanner(System.in);
-
+        System.out.println("Bu program gireceğiniz 3 sayıyı büyükten küçüğe sıralamak için tasarlanmıştır.");
         System.out.println("1.sayi : ");
         x = numbers.nextInt();
 

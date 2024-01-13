@@ -26,12 +26,12 @@ public class airFareCalculator {
         System.out.println("Please indicate your travel type. 1 = One-Way | 2 = Round trip");
         travelType = scanner.nextInt();
 
+        //calculating price
+        ticketPrice= pricePerKm * distance;
 
         if ((distance < 1) || (age < 1) || (travelType != 1 && travelType != 2)) {
             System.out.println("Wrong input, please try again.");
         }
-
-        ticketPrice= pricePerKm * distance;
 
     // Age discount
             if (age < 12) {
